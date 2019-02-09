@@ -19,3 +19,6 @@ def up_to_vowel(s):
         i = i + 1
 
     return before_vowel
+
+print(up_to_vowel("Shubham"))
+print(get_answer("Are you exhausted? Answer in yes or no."))

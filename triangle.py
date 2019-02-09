@@ -15,3 +15,4 @@ def area_hero(side1, side2, side3):
     return area
 
 area = area_hero(3,4,5)
+print("area = " + str(area))
