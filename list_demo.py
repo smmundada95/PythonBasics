@@ -8,10 +8,15 @@ def assign_grades(subjects):
     grades = []
     print( 'The number of subjects = ' + str(subject_count))
     i = 0
-    while i < subject_count:
-        grades.append((i+1) * 30)
-        i = i + 1
-        
+    #using for loop and range
+    for i in range(subject_count):
+        grades.append((i + 1) * 30)
+
+    #Performing the same operation with whille loop
+    #while i < subject_count:
+    #    grades.append((i+1) * 30)
+    #   i = i + 1
+    
     return grades
 
 def add_grades(subjects, grades):
